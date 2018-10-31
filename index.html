@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>简历</title>
+</head>
+<body>
+	<style>
+	*{
+		margin:0;
+		padding: 0;
+		list-style:none;
+	}
+	a{
+		text-decoration: none;
+			color: #333;
+	}
+		.layout{
+			width:900px;
+			margin: 0 auto;
+		}
+		.clearfix:after{
+			content: '';
+			display: block;
+			clear: both;
+		}
+		content .panel{
+			text-align: center;
+		}
+		content .nav li{
+			display: inline-block;
+			background: pink;
+			margin: 0 1rem;
+			border-radius: 4px;
+
+		}
+		content .nav li a{
+			display: inline-block;
+			padding:.5rem 2rem;
+			color: #fff;
+		}
+		content .nav li:hover{
+			opacity: .5;
+		}
+		content .nav li.active{
+			opacity: .5;
+		}
+		content .nav li.active:hover{
+			opacity: 1;
+		}
+		content .nav li.active:hover a{
+			opacity: 1;
+		}
+		content .panel p{
+			padding: 1rem 0;
+		}
+
+
+
+		content .panel .ct{
+			height:300px;
+			background: #eee;
+			overflow: hidden;
+
+		}
+		content .panel .ct li{
+			height:300px;
+		}
+/*		content .panel .ct li img{
+			width:100%;
+			background-size: cover: 
+		}*/
+
+		content a{
+			border-radius: 4px; 
+		}
+		content .panel .btn a{
+			display: inline-block;
+			padding: .5rem 2rem;
+			background: pink;
+			color: #fff;
+			margin: 1rem;
+		}
+		content .panel p:last-child{
+			color: #999;
+		}
+		content .panel p:last-child a{
+			color:pink;
+		}
+		content a:hover{
+			    opacity: 0.5;
+		}
+	</style>
+	<content>
+		<div class="panel layout">
+			<h1>我的项目</h1>
+			<p>一句话项目介绍</p>
+			<ul class="nav clearfix">
+				<li class="active"><a href="#">按钮1</a></li>
+				<li><a href="#">按钮2</a></li>
+				<li><a href="#">按钮3</a></li>
+				<li><a href="#">按钮4</a></li>
+				<li><a href="#">按钮5</a></li>
+				<li><a href="#">按钮6</a></li>
+			</ul>
+			<ul class="ct">
+				<li><img src="images/123.jpg" alt=""></li>	
+				<li><img src="images/123.jpg" alt=""></li>
+				<li><img src="images/123.jpg" alt=""></li>
+				<li><img src="images/123.jpg" alt=""></li>
+				<li><img src="images/123.jpg" alt=""></li>
+				<li><img src="images/123.jpg" alt=""></li>
+			</ul>
+			<div class="btn">
+				<a href="">查看源码</a>
+				<a href="">使用说明</a>
+			</div>
+			<p>作者：<a href="#">我</a></p>
+
+		</div>
+	</content>
+</body>
+</html>

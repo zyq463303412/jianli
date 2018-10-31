@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>简历</title>
+	<style>
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		ul li{
+			list-style: none;
+		}
+		h1,h2,h3,h4,h5,h6{
+			font-weight: normal;
+		}
+		.fl{
+			float: left;
+		}
+		.fr{
+			float: right;
+		}
+		.clearfix:after{
+			content:'';
+			display: block;
+			clear: both;
+		}
+		img{
+			width: 100%;
+		}
+		body{
+			position: relative;
+			background: rgba(0,0,0,0.9);
+		}
+		#wrap{
+		    width: 900px;
+		    background: #fff;
+		    position: relative;
+		    left: 50%;
+		    top: 0;
+		    /* transform: translate(-50%,-50%); */
+		    margin-left: -450px;
+		}
+
+
+
+		#header{
+		    padding: 4rem 0;
+		    margin-right: 0;
+		}
+		#header .aside{
+			width: 64%;
+		}
+		#header .panel .my-img{
+			float: left;
+			width: 120px;
+		    height: 120px; 
+		    border-radius: 50%;
+		    background: #333;
+		    vertical-align: middle;
+	        margin-left: 70px;
+		}
+		#header .panel .my-text{
+		    margin-left: 200px;
+			padding: 20px 0;
+		}
+		#header .panel .my-text h1{
+			font-size: 50px;
+			font-weight: 100;
+		}
+		#header .panel .my-text p{
+			font-weight: bold;
+		}
+
+
+
+		#header .sidebar{
+			width:36%;
+		}
+		#header .sidebar h3{
+			border-bottom: 4px solid #333;
+			width: 100%;
+		    padding-bottom: .2rem;
+		}
+		#header .sidebar ul li span{
+			font-weight: bold;
+			padding-right: 1rem;
+		}
+		#header .sidebar ul li{
+		    padding: .2rem 0;
+		    font-weight: 100;
+			}
+		#header .sidebar ul li:first-child{
+			margin-top: .5rem;
+		}
+
+
+
+		#content{
+			padding: 0 2rem;
+			}
+
+		h3{
+			border-bottom:1px solid #ccc;
+		    padding: 1rem 0;
+		    width: 50%;
+		    text-transform: uppercase;
+	        font-weight: bold;
+		}
+		p{
+		    display: -webkit-box;
+		    -webkit-box-orient: vertical;
+		    -webkit-line-clamp: 3;
+		    overflow: hidden;
+		}
+		.page01 ul{
+			position: relative;
+			padding-top: 2rem;
+			margin-bottom: 2rem;
+		}
+		.page01 ul li{
+			border-left:1px solid #000;
+			/*margin-bottom: 1rem;*/
+		}	
+		.page01 ul li>span{
+			display: inline-block;
+			height: 10px;
+			width:10px;
+			background: #000;
+			border-radius: 50%;
+			position: absolute;
+			left: -5px;
+		}
+		.page01 ul li .ct-text{
+			padding-right: 20px;
+			position: relative;
+		    top: -5px;
+		    left: 30px;
+		    padding-bottom: 1rem;
+		}
+		.page01 ul li .ct-text p{
+			padding-top: .5rem;
+		}
+		.page01 ul li .ct-text span{
+			color: #999;
+		}
+		#footer{
+			padding: 0 2rem;
+
+		}
+		#footer .panel .aside{
+			width:45%;
+		} 
+		#footer h3{
+			width: 100%;
+			margin-bottom: 2rem;
+		}
+		#footer .panel .aside .ct-box{
+			margin-bottom: 1rem;
+		}
+		#footer .panel  .ct-box span{
+			float: left;
+		}
+		#footer .panel  .ct-box span:after{
+		    content: '+';
+		    display: inline-block;
+		    border-top: 1px solid #000;
+		    border: 1px solid #000;
+		    border-radius: 50%;
+		    width: 20px;
+		    height: 20px;
+		    text-align: center;
+		    line-height: 20px;
+		}
+		#footer .panel  .my-text{
+			margin-left: 80px;
+			font-weight: 100;
+		}
+		#footer .panel .aside .my-text p{
+			padding-top: .5rem;
+		}
+
+
+
+
+		#footer .panel .sidebar{
+		    width: 45%;
+		    padding-left: 10%;
+		}
+		#footer .panel .sidebar .ct-box h4{
+			margin-left: 40px;
+			font-weight: bold; 
+		}
+		#footer .panel .sidebar .ct-box{
+			float: left;
+			width: 50%;
+			padding-bottom: 4rem;
+			    font-weight: bold;
+		}
+	</style>
+</head>
+<body>
+<div id="wrap">
+	<div id="header">
+		<div class="panel clearfix">
+			<div class="aside fl clearfix">
+				<div class="my-img"><img src="" alt=""></div>
+				<div class="my-text">
+					<h1>MyName</h1>
+					<p>Graphic&Designer</p>
+				</div>
+			</div>
+			<div class="sidebar fl">
+				<h3>Contacts</h3>
+				<ul>
+					<li><span>A</span>59 somewhere Street,NY,usa</li>
+					<li><span>M</span>123456789</li>
+					<li><span>E</span>myEmaile@qq.com</li>
+					<li><span>B</span>www.behance.nevdesign</li>
+				</ul>
+			</div>
+		</div>
+	</div>
+	
+	<div id="content">
+		<div class="page01">
+			<h3>work experience</h3>
+			<ul class="ct">
+				<li>
+					<span></span>
+					<div class="ct-text">
+						<h4>Marketplaces <span>/2012-2013</span></h4>
+						<p>這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述</p>
+					</div>
+				</li>
+				<li>
+					<span></span>
+					<div class="ct-text">
+						<h4>Marketplaces <span>/2012-2013</span></h4>
+						<p>這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述</p>
+					</div>
+				</li>
+				<li>
+					<span></span>
+					<div class="ct-text">
+						<h4>Marketplaces <span>/2012-2013</span></h4>
+						<p>這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+				<div class="page01">
+			<h3>work experience</h3>
+			<ul class="ct">
+				<li>
+					<span></span>
+					<div class="ct-text">
+						<h4>Marketplaces <span>/2012-2013</span></h4>
+						<span>Visual Design communication</span>
+						<p>這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述</p>
+					</div>
+				</li>
+				<li>
+					<span></span>
+					<div class="ct-text">
+						<h4>Marketplaces <span>/2012-2013</span></h4>
+						<span>Visual Design communication</span>
+						<p>這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述</p>
+					</div>
+				</li>
+			</ul>
+		</div>
+
+	</div>
+	
+	<div id="footer">
+		<div class="panel clearfix">
+			<div class="aside fl clearfix">
+				<h3>EXTRA CURRICULAR ACTIVITIES</h3>
+				<div class="ct-box">
+					<span></span>
+					<div class="my-text">
+						<h4>Volunteer</h4>
+						<p>這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述</p>
+					</div>
+				</div>	
+				<div class="ct-box">
+					<span></span>
+					<div class="my-text">
+						<h4>Volunteer</h4>
+						<p>這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述這是一段文字簡述</p>
+					</div>
+				</div>
+			</div>
+			<div class="sidebar fl clearfix">
+				<h3>profesional skills</h3>
+				<div class="ct-box">
+					<span></span>
+					<h4>Volunteer</h4>
+				</div>
+				<div class="ct-box">
+					<span></span>
+					<h4>Volunteer</h4>
+				</div>
+				<div class="ct-box">
+					<span></span>
+					<h4>Volunteer</h4>
+				</div>
+				<div class="ct-box">
+					<span></span>
+					<h4>Volunteer</h4>
+				</div>
+				<div class="ct-box">
+					<span></span>
+					<h4>Volunteer</h4>
+				</div>
+				<div class="ct-box">
+					<span></span>
+					<h4>Volunteer</h4>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+</body>
+</html>
